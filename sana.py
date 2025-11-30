@@ -52,7 +52,7 @@ class ChatBot():
 
 #Running the AI
 if __name__ == "__main__":
-    ai = ChatBot(name="KOT")
+    ai = ChatBot(name="sana")
     nlp = transformers.pipeline("conversational", model="microsoft/DialoGPT-medium")
     os.environ["TOKENIZERS_PARALLELISM"] = "true"
 
